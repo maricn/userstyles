@@ -1,51 +1,53 @@
 /* ==UserStyle==
 @name        Google Meet - UI fixups
 @namespace   maricn
-@version     1.0.4
+@version     1.0.5
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/gmeet.user.css
 @license     BSD-2-Clause
 @author      maricn  
 ==/UserStyle== */
 
-/* Whole bottom toolbar */
-.rG0ybd {
-  /* Force inside view frame */
-  transform: scale(0.75) translate(0) !important;
+@-moz-document domain("meet.google.com") {
+  /* Whole bottom toolbar */
+  .rG0ybd {
+    /* Force inside view frame */
+    transform: scale(0.75) translate(0) !important;
 
-  /* Make semi-transparent */
-  background: black; /*rgba(0, 0, 0, 0.5);*/
-  box-shadow: none;
-  width: 42vw;
-  margin: 0vw 3vw -1vw;
-  padding: 0px;
-  display: block ruby;
+    /* Make semi-transparent */
+    background: black; /*rgba(0, 0, 0, 0.5);*/
+    box-shadow: none;
+    width: 42vw;
+    margin: 0vw 3vw -1vw;
+    padding: 0px;
+    display: block ruby;
+  }
+
+  /* Mid right: raise hand, present, three dots */
+  .f0WtFf {
+    background-color: black;
+  }
+
+  /* Mid: Mute, Hang up, Video */
+  /* .q2u11 { */
+  /* Scale to 75% */
+  /* transform: scale(0.75) translateY(20px) !important; */
+  /*}*/
+  /* Mid: Buttons (when not selected) */
+  .q2u11 div[role="button"]:not([data-is-muted="true"]) {
+    background: white;
+  }
+
+  /* Left: Meeting name */
+  .Q8K3Le {
+    display: none;
+  }
+
+  /* Right: Captions */
+  .jzP6rf {
+    display: none;
+  }
+
+  /* Right: Captions, Present Now, Settings */
+  /*.f0WtFf { transform: scale(0.75) translateY(20px) !important; }*/
 }
-
-/* Mid right: raise hand, present, three dots */
-.f0WtFf {
-  background-color: black;
-}
-
-/* Mid: Mute, Hang up, Video */
-/* .q2u11 { */
-/* Scale to 75% */
-/* transform: scale(0.75) translateY(20px) !important; */
-/*}*/
-/* Mid: Buttons (when not selected) */
-.q2u11 div[role="button"]:not([data-is-muted="true"]) {
-  background: white;
-}
-
-/* Left: Meeting name */
-.Q8K3Le {
-  display: none;
-}
-
-/* Right: Captions */
-.jzP6rf {
-  display: none;
-}
-
-/* Right: Captions, Present Now, Settings */
-/*.f0WtFf { transform: scale(0.75) translateY(20px) !important; }*/
