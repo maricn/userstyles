@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Google Meet - UI fixups
 @namespace   maricn
-@version     1.0.5
+@version     1.0.6
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/gmeet.user.css
 @license     BSD-2-Clause
@@ -14,25 +14,22 @@
     /* Force inside view frame */
     transform: scale(0.75) translate(0) !important;
 
-    /* Make semi-transparent */
+    /* Paint it black */
     background: black; /*rgba(0, 0, 0, 0.5);*/
     box-shadow: none;
+
+    /* Positioning */
     width: 42vw;
     margin: 0vw 3vw -1vw;
     padding: 0px;
     display: block ruby;
   }
 
-  /* Mid right: raise hand, present, three dots */
+  /* Right: Raise Hand, Captions, Present Now, Settings */
   .f0WtFf {
     background-color: black;
   }
 
-  /* Mid: Mute, Hang up, Video */
-  /* .q2u11 { */
-  /* Scale to 75% */
-  /* transform: scale(0.75) translateY(20px) !important; */
-  /*}*/
   /* Mid: Buttons (when not selected) */
   .q2u11 div[role="button"]:not([data-is-muted="true"]) {
     background: white;
@@ -47,7 +44,4 @@
   .jzP6rf {
     display: none;
   }
-
-  /* Right: Captions, Present Now, Settings */
-  /*.f0WtFf { transform: scale(0.75) translateY(20px) !important; }*/
 }
