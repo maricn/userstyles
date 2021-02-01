@@ -1,0 +1,142 @@
+/* ==UserStyle==
+@name        bandcamp.com - dark
+@namespace   maricn
+@version     1.0.6
+@homepageURL https://github.com/maricn/userstyles
+@updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/bandcamp.user.css
+@license     BSD-2-Clause
+@author      maricn  
+==/UserStyle== */
+
+@-moz-document domain("bandcamp.com") {
+  div#propOpenWrapper {
+    background: black;
+  }
+
+  .recommendations-container {
+    background-color: black;
+  }
+
+  .recommendations-container .recommended-album p {
+    color: #acacac;
+  }
+
+  .recommendations-container a.title-and-artist,
+  .recommendations-container .recommended-story a,
+  .recommendations-container .bcw-blurb,
+  .recommendations-container .linked-blurb {
+    color: #8c8c8c;
+  }
+
+  #pgBd {
+    background: black;
+    color: #818181;
+  }
+
+  .primaryText,
+  #discography a.primaryText,
+  #trackInfo a.title_link,
+  .label-welcome .buttons a.existing {
+    color: #a0a0a0;
+  }
+
+  .menubar-2018 {
+    background-color: #1e1e1e;
+  }
+
+  .menubar-2018 input#search-field {
+    background-color: black;
+    color: #cacaca;
+  }
+
+  #autocomplete-results.autocompleted {
+    background: #7b7b7b;
+  }
+
+  .menubar-2018 .search .keyboard-focus #search-field.focused {
+    background-color: black;
+  }
+
+  .menubar-2018 a,
+  .menubar-2018 li,
+  .menubar-2018 .ui-widget-content a {
+    color: #a0a0a0;
+  }
+
+  #band-navbar {
+    background-color: #1c1c1c;
+  }
+
+  #band-navbar a.active {
+    color: #cacaca;
+    border-color: #cacaca;
+  }
+
+  .has-rec-footer #pgFt {
+    background-color: #1c1c1c;
+  }
+
+  #menubar-wrapper.header-rework-2018 .menubar-outer {
+    box-shadow: 0px 1px black;
+    background-color: #1e1e1e;
+  }
+
+  .menubar-2018 {
+    box-shadow: 0px 1px #333;
+  }
+
+  #hub .hub-component:nth-child(2n) {
+    background: #1e1e1e;
+    color: #cacaca;
+  }
+
+  #hub .hub-component:nth-child(2n) .item .info {
+    background: black;
+  }
+
+  #hub .item .info {
+    background: #1e1e1e;
+  }
+
+  #hub ol.tabs.fixed {
+    background: black;
+  }
+
+  #hub ol.tabs .tab.active {
+    border-top: 3px solid #cacaca;
+    color: #cacaca;
+  }
+
+  a.custom-color,
+  .custom-link-color,
+  #trackInfo a:not(.notSkinnable),
+  #trackInfo .buy-link,
+  #tagArea a,
+  #rightColumn a,
+  #name-section a,
+  #indexpage a,
+  .editable-grid a,
+  .featured-grid a,
+  #band-navbar a,
+  #merch-item p a,
+  #merch-item .buy a,
+  #merch-item .buy button,
+  #merch-item .more-merch a,
+  .share-collect-controls a,
+  .share-collect-controls button,
+  .follow-unfollow,
+  .follow-unfollow div,
+  .collected-by a,
+  .subscribe a,
+  .sub a,
+  .video-list a,
+  .sub .main a,
+  .subwelcome a,
+  .artists-grid-name a,
+  .featured-grid-name,
+  .label-welcome .buttons a.new,
+  .themed .label-band-selector a.themeable,
+  .tralbum-tags a {
+    color: white;
+  }
+}
