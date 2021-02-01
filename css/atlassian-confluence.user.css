@@ -1,0 +1,162 @@
+/* ==UserStyle==
+@name        Atlassian Confluence - compact
+@namespace   maricn
+@version     0.1.0
+@homepageURL https://github.com/maricn/userstyles
+@updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
+@license     BSD-2-Clause
+@author      maricn  
+==/UserStyle== */
+
+@-moz-document regexp("https://.*\.atlassian.net/wiki/.*")
+{
+  .css-xuepxh {
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(66, 82, 110);
+    line-height: 1;
+  }
+
+  .css-1yehx9i {
+    width: 20px;
+    text-align: center;
+    font-size: 10pt;
+    color: inherit;
+  }
+
+  .css-yjd67i.css-yjd67i {
+    -moz-box-align: center;
+    align-items: center;
+    border: medium none;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    font-size: inherit;
+    height: 30px;
+    outline: currentcolor none medium;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: transparent;
+    fill: rgb(244, 245, 247);
+  }
+
+  .wrapper-space-view-page > div:nth-child(1) > div:nth-child(1) {
+    padding: 0px 30px 10px;
+    min-height: calc(-56px + 75vh);
+  }
+
+  .wrapper-space-view-page > div:nth-child(1) > div:nth-child(1) {
+    padding-left: 20px;
+  }
+
+  .sc-bRBYWo {
+    margin-left: -40px;
+  }
+
+  .sc-kUaPvJ {
+    margin-left: 0px;
+  }
+
+  body {
+    line-height: 1;
+  }
+
+  .css-1m0epsl {
+    padding: 1px 2px;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+    color: rgb(66, 82, 110);
+    user-select: none;
+    border-radius: 3px;
+    background-color: transparent;
+    height: 30px;
+    margin: 0px !important;
+    -moz-box-align: center;
+    align-items: center;
+    animation: 0s ease 0s 1 normal none running none;
+    font-size: 14px;
+  }
+
+  .css-1oyzili {
+    display: flex;
+    min-height: 14px;
+    -moz-box-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .css-4pqz3v [data-item-elem-before] {
+    display: flex;
+    height: 10px;
+    width: 24px;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    margin-right: 16px;
+  }
+
+  .css-4pqz3v {
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    box-sizing: border-box;
+    color: rgb(66, 82, 110);
+    user-select: none;
+    border-radius: 3px;
+    background-color: rgb(250, 251, 252);
+    padding: 3px 10px;
+  }
+
+  .css-ek7kgj {
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    text-align: left;
+    overflow: hidden;
+    outline: currentcolor none medium;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+  }
+
+  .css-b6ncbb [data-item-elem-before] {
+    display: flex;
+    height: 20px;
+    width: 24px;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    margin-right: 16px;
+  }
+
+  .css-b6ncbb {
+    color: rgb(66, 82, 110);
+    padding: 1px 3px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    box-sizing: border-box;
+    user-select: auto;
+    border-radius: 3px;
+    background-color: rgb(250, 251, 252);
+  }
+
+  .css-9k30bv [data-ds--menu--heading-item] {
+    margin-top: 14px;
+    margin-bottom: 4px;
+  }
+
+  .css-zaxvqe {
+    padding: 4px 8px 8px;
+  }
+}
