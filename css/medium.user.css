@@ -1,0 +1,65 @@
+/* ==UserStyle==
+@name        Medium - Darkness
+@namespace   maricn
+@version     0.1.0
+@homepageURL https://github.com/maricn/userstyles
+@updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/medium.user.css
+@license     BSD-2-Clause
+@author      maricn  
+==/UserStyle== */
+
+@-moz-document domain("medium.com") {
+  /* dark body, light text */
+  html,
+  body,
+  div,
+  p,
+  section,
+  article {
+    background-color: #060606 !important;
+    color: #777 !important;
+  }
+
+  /* no header or footer background */
+  header div,
+  footer div,
+  .image div {
+    background-color: transparent !important;
+  }
+
+  /* white headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff !important;
+  }
+
+  .notes-list-fade,
+  .notes-list-fade-bottom {
+    background: inherit !important;
+  }
+
+  pre,
+  code {
+    background-color: #222 !important;
+  }
+
+  a {
+    color: #777 !important;
+  }
+
+  .ak {
+    width: unset !important;
+  }
+
+  /* remove le wild overlay about the author */
+  div.uk:nth-child(4),
+  div.uj:nth-child(4),
+  div.a.b.c div.s div.uj.fj.er.mc.w.um.mg.mj,
+  div.a.b.c div.s div.uk.fj.er.mc.w.um.mg.mj {
+    display: none;
+  }
+}
