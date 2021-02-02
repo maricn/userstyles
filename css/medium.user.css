@@ -1,14 +1,23 @@
 /* ==UserStyle==
 @name        Medium - Darkness
 @namespace   maricn
-@version     0.1.0
+@version     0.2.0
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/medium.user.css
 @license     BSD-2-Clause
 @author      maricn  
 ==/UserStyle== */
 
-@-moz-document domain("medium.com") {
+@-moz-document domain("medium.com"), 
+url-prefix("https://posts.specterops.io"), 
+url-prefix("https://hackernoon.com"), 
+url-prefix("https://blog.0day.rocks"), 
+url-prefix("https://blog.discordapp.com"), 
+url-prefix("https://blog.ettic.ca"), 
+url-prefix("https://arlogilbert.com"), 
+url-prefix("https://medium.freecodecamp.org"), 
+url-prefix("https://engineering.salesforce.com")
+{
   /* dark body, light text */
   html,
   body,
