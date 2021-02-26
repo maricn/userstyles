@@ -1,13 +1,12 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.1.0
+@version     0.2.0
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
 @author      maricn  
 ==/UserStyle== */
-
 @-moz-document regexp("https://.*\.atlassian.net/wiki/.*")
 {
   .css-xuepxh {
@@ -46,6 +45,24 @@
     padding-left: 8px;
     background-color: transparent;
     fill: rgb(244, 245, 247);
+  }
+
+  .css-5mekwu {
+    line-height: 1;
+  }
+
+  .css-1uzqz66 {
+    font-size: 10px;
+    height: 30px;
+  }
+
+  .css-ek7kgj {
+    line-height: 1;
+    font-size: 10pt;
+  }
+
+  .css-1oyzili {
+    min-height: 10px;
   }
 
   .wrapper-space-view-page > div:nth-child(1) > div:nth-child(1) {
