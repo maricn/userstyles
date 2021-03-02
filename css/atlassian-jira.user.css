@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Jira - compact
 @namespace   maricn
-@version     0.1.0
+@version     0.1.1
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-jira.user.css
 @license     BSD-2-Clause
@@ -272,5 +272,11 @@
   /* reduce margins on content, reclaim viewspace */
   #content {
     margin: 0 30px 0 10px;
+  }
+
+  /* reduce header height */
+  .css-1fqdeb8,
+  header {
+    height: 36px;
   }
 }
