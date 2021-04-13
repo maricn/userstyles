@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.4.0
+@version     0.4.1
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
@@ -210,5 +210,30 @@
   }
   .css-kjt1ym {
     display: block;
+  }
+
+  /* clean up left navigation sidebar after removing the navbar on the top */
+  .css-cdxr6t {
+    top: 0px;
+  }
+  .css-wh4dqy {
+    margin: 0px;
+  }
+  .css-dycak9 {
+    padding: 6px 6px;
+  }
+  .css-9k30bv {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .css-1sucm9d,
+  .css-19miiio {
+    padding: 3px 6px;
+  }
+  .css-zaxvqe {
+    padding: 0px;
+  }
+  .css-9k30bv [data-ds--menu--heading-item] {
+    display: none;
   }
 }
