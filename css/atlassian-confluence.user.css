@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.2.1
+@version     0.3.0
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
@@ -179,5 +179,28 @@
 
   .css-ntsmzt {
     height: 24px;
+  }
+
+  /* remove logo and Atlassian products selection */
+  .css-15i33f0 > * {
+    display: none;
+  }
+
+  /* thin out header/nav top banner */
+  .css-1s1v97q {
+    height: 40px;
+  }
+
+  /* reduce whitespace on the document top, above title and breadcrumb */
+  .css-1sn6j8c {
+    padding-top: 0px;
+  }
+
+  /* reduce top/bottom margin on metadata under the document title */
+  .css-6i3g87 {
+    margin: 10px 0px;
+  }
+  .css-qrgfm0 {
+    min-height: 80px;
   }
 }
