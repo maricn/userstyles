@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.4.1
+@version     0.4.2
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
@@ -177,7 +177,8 @@
     padding: 4px 8px 8px;
   }
 
-  .css-ntsmzt {
+  .css-ntsmzt,
+  .css-15mx2p8 {
     height: 24px;
   }
 
