@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Jira - compact
 @namespace   maricn
-@version     0.1.1
+@version     0.2.0
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-jira.user.css
 @license     BSD-2-Clause
@@ -45,7 +45,7 @@
   .ghx-issue .ghx-summary {
     padding-top: 0rem;
     max-height: 10rem;
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
     line-height: 1rem !important;
     text-transform: lowercase;
   }
@@ -278,5 +278,15 @@
   .css-1fqdeb8,
   header {
     height: 36px;
+  }
+
+  /* reduce column heading title padding */
+  .adg3 .ghx-column-headers .ghx-column {
+    padding: 2px 10px 8px 21px;
+  }
+
+  /* breadcrumb whitespace */
+  .cNTPzw {
+    margin: 0px 0px 0px 10px;
   }
 }
