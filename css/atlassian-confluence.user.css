@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.4.2
+@version     0.4.3
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
@@ -236,5 +236,10 @@
   }
   .css-9k30bv [data-ds--menu--heading-item] {
     display: none;
+  }
+
+  /* reduce vertical whitespace in left sidebar */
+  .css-m1il2c {
+    height: 18px;
   }
 }
