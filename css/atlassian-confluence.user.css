@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.4.6
+@version     0.4.7
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
@@ -239,10 +239,13 @@
   }
 
   /* reduce vertical whitespace in left sidebar */
-  .css-m1il2c,
-  .css-vqkxcs,
-  .css-evhrrl,
-  .css-rof99k {
+  /* .css-m1il2c, */
+  /* .css-vqkxcs, */
+  /* .css-evhrrl, */
+  /* .css-rof99k, */
+  /* .css-13ufh2, */
+  /* .css-13cefwf, { */
+  a[draggable="false"][tabindex="0"] {
     min-height: 18px;
     height: 18px;
   }
