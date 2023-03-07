@@ -17,6 +17,12 @@ For nocturnal spirits mostly. Not intended to make you happy. It works on my mac
 
 _Don't laugh at my code. I warned you!_
 
+### Tips
+
+Stylus extension now offers possibility of (1) marking certain userstyles as "night mode only" and (2) applying appropriate night or daytime userstyles according to the system settings (toggle night mode in system appearance settings). This allows automated application of dark mode userstyles.
+
+<img height="250px" src="https://user-images.githubusercontent.com/3995223/223436858-6c99296b-f09c-40c9-9639-5fba168085a5.png">&nbsp;<img height="250px" src="https://user-images.githubusercontent.com/3995223/223437548-984c1dc7-e0b7-43fa-bf1a-d86c68755685.png">
+
 ## Principles
 
 * Dark > Light
