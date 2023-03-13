@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Atlassian Confluence - compact
 @namespace   maricn
-@version     0.7.1
+@version     0.7.2
 @homepageURL https://github.com/maricn/userstyles
 @updateURL   https://raw.githubusercontent.com/maricn/userstyles/main/css/atlassian-confluence.user.css
 @license     BSD-2-Clause
@@ -84,19 +84,19 @@
 
 
   /* reduce horizontal whitespace in the left sidebar */
-  .css-kdlwwp {
+  .css-kdlwwp .css-18haai {
     padding: 0px 6px 0px 0px;
   }
-  .css-w0c88z {
+  .css-w0c88z .css-1m0be76 {
     padding: 0px 6px 0px 12px;
   }
   .css-1i0m4s8, .css-1icafha {
     padding: 0px 6px 0px 24px;
   }
-  .css-1cle2wn {
+  .css-1cle2wn .css-1fdmuxr {
     padding: 0px 6px 0px 36px;
   }
-  .css-cubwfe {
+  .css-cubwfe .css-y43iar {
     padding: 0px 6px 0px 48px;
   }
 
