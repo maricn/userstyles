@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Slack - quality improvements
+@namespace      github.com/maricn/userstyles
+@version        1.0.0
+@description    Use monospace font (configure your fontconfit); hide upsells
+@author         maricn
+==/UserStyle== */
+@-moz-document domain("app.slack.com") {
+  /*
+  [lang] body,
+  [lang] .c-texty_input,
+  [lang] code pre {
+  }
+  */
+  code,
+  pre {
+    font-family: monospace !important;
+  }
+  
+  /* hide canvas */
+  div.p-autoclog__hook:nth-child(3) {
+    display: none;
+  }
+  
+  /* hide huddle */
+  div.c-coachmark-anchor {
+    display: none;
+  }
+}
